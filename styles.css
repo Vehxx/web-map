@@ -1,6 +1,36 @@
-.body-basic {
-    background-color: rgb(40, 40, 40);
+html, body {
+    height: 100%;
+    width: 100%;
 
     margin: 0px;
     padding: 0px;
+    border: 0px;
+}
+
+.body-basic {
+    background-color: rgb(40, 40, 40);
+
+    height: 100%;
+    width: 100%;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.outer-container {
+    height: 100%;
+    width: 100%;
+
+    display: grid;
+    place-items: center;
+}
+
+.map-box {
+    height: 800px;
+    width: 1500px;
+
+    margin: 0px;
+    padding: 0px;
+
+    box-shadow: 0px 0px 10px black;
 }
